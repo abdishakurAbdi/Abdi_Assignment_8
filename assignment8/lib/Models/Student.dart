@@ -3,7 +3,7 @@ class Student {
   final String fname;
   final String lname;
   final String studentID;
-  final DateTime dateEntered;
+  final String dateEntered;
 
   Student._(this.id, this.fname, this.lname, this.studentID, this.dateEntered);
 

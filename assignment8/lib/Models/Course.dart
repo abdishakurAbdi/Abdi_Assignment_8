@@ -4,7 +4,7 @@ class Course {
   final String courseName;
   final String courseInstructor;
   final String courseCredits;
-  final DateTime dateEntered;
+  final String dateEntered;
 
   Course._(this.id, this.courseID, this.courseName, this.courseInstructor,
       this.courseCredits, this.dateEntered);
